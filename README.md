@@ -102,7 +102,7 @@ npm run dev
 
 ---
 
-## 🌍 دعوت به همکاری به چند زبان
+## 🌍 دعوت به همکاری
 
 ### English
 **Professional Next.js Developer for Hire**
