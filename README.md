@@ -57,7 +57,7 @@ cp .env.example .env.local
 مقادیر را در فایل `.env.local` ویرایش کنید:
 
 ```env
-WORDPRESS_URL="https://wp.yourdomain.ir/wp-json"
+WORDPRESS_URL="https://wp.yourdomain.ir/"
 WORDPRESS_HOSTNAME="wp.yourdomain.ir"
 WORDPRESS_WEBHOOK_SECRET="کلید-امنیتی-خود-را-اینجا-قرار-دهید"
 ```
@@ -102,7 +102,7 @@ npm run dev
 
 ---
 
-## 🌍 دعوت به همکاری به چند زبان
+## 🌍 دعوت به همکاری
 
 ### English
 **Professional Next.js Developer for Hire**
