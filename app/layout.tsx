@@ -75,14 +75,14 @@ const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-4 items-center"
           href="/"
         >
-          <Image
+          {/* <Image
             src={Logo}
             alt="Logo"
             loading="eager"
             className="dark:invert"
             width={42}
             height={26.44}
-          ></Image>
+          ></Image> */}
           <h2 className="text-sm">{siteConfig.site_name}</h2>
         </Link>
         {children}
@@ -113,14 +113,14 @@ const Footer = () => {
         <Container className="grid md:grid-cols-[1.5fr_0.5fr_0.5fr] gap-12">
           <div className="flex flex-col gap-6 not-prose">
             <Link href="/">
-              <h3 className="sr-only">{siteConfig.site_name}</h3>
-              <Image
+              <h3 className="text-sm">{siteConfig.site_name}</h3>
+              {/* <Image
                 src={Logo}
                 alt="Logo"
                 className="dark:invert"
                 width={42}
                 height={26.44}
-              ></Image>
+              ></Image> */}
             </Link>
             <p>
               <Balancer>{siteConfig.site_description}</Balancer>

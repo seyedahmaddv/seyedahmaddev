@@ -1,7 +1,7 @@
 // Define the menu items
 export const mainMenu = {
   home: {label:"خانه",href:"/"},
-  about: {label:"درباره من",href:"https://linkedin.com/in/seyedahmaddv"},
+  about: {label:"درباره من",href:"/about"},
   blog: {label:"وبلاگ",href:"/posts"},
 };
 

@@ -58,7 +58,7 @@ export default function Home() {
           </Prose>
 
           {/* کارت‌های شخصی */}
-          <div className="grid md:grid-cols-4 gap-6">
+          {/* <div className="grid md:grid-cols-4 gap-6">
             <Link
               href="/projects"
               className="border h-40 bg-accent/50 rounded-xl p-4 flex flex-col justify-between hover:scale-[1.02] transition-all"
@@ -111,7 +111,7 @@ export default function Home() {
                 </span>
               </span>
             </a>
-          </div>
+          </div> */}
 
           {/* کارت‌های وبلاگ وردپرسی */}
           <div className="grid md:grid-cols-3 gap-6 mt-12">
