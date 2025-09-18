@@ -25,8 +25,8 @@ import { SearchInput } from "@/components/posts/search-input";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Posts",
-  description: "Browse all our blog posts",
+  title: "پستهای وبلاگ",
+  description: "همه پستهای وبلاگ را ببینید",
 };
 
 export const dynamic = "auto";
@@ -77,9 +77,9 @@ export default async function Page({
       <Container>
         <div className="space-y-8">
           <Prose>
-            <h2>All Posts</h2>
+            <h2>همه پستها</h2>
             <p className="text-muted-foreground">
-              {total} {total === 1 ? "post" : "posts"} found
+              {total} {total === 1 ? "post" : "posts"} پیدا شد
               {search && " matching your search"}
             </p>
           </Prose>
@@ -105,7 +105,7 @@ export default async function Page({
             </div>
           ) : (
             <div className="h-24 w-full border rounded-lg bg-accent/25 flex items-center justify-center">
-              <p>No posts found</p>
+              <p>هیچ پستی پیدا نشد</p>
             </div>
           )}
 
