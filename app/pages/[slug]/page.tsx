@@ -1,4 +1,4 @@
-import { getPostBySlug, getAllPages } from "@/lib/wordpress";
+import { getPostBySlug, getAllPosts } from "@/lib/wordpress";
 import { Section, Container } from "@/components/craft";
 import { siteConfig } from "@/site.config";
 import Sidebar from "@/components/Sidebar";
@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
-  const pages = await getAllPages();
-  return pages.map((page) => ({ slug: page.slug }));
+  const pages = await getAllPosts();
+  return pages.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
