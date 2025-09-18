@@ -16,9 +16,9 @@ import Balancer from "react-wrap-balancer";
 
 import type { Metadata } from "next";
 
-export async function generateStaticParams() {
-  return await getAllPostSlugs();
-}
+// export async function generateStaticParams() {
+//   return await getAllPostSlugs();
+// }
 
 export async function generateMetadata({
   params,
