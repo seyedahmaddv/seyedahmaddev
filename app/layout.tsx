@@ -27,7 +27,7 @@ const font = FontSans({
 export const metadata: Metadata = {
   title: "وبلاگ سید احمد",
   description:
-    "یک وبلاگ برای انتشار پست های تکنولوژی اطلاعات، فرانت اند و بک اند.",
+    "طراحی و توسعه وب سایتهای مبتنی بر ری اکت و نکست جی اس",
   metadataBase: new URL(siteConfig.site_domain),
   alternates: {
     canonical: "/",
