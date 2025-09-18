@@ -5,7 +5,8 @@ import { Inter as FontSans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { MobileNav } from "@/components/nav/mobile-nav";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Button } from "@/components/ui/button";
 
 import { mainMenu, contentMenu } from "@/menu.config";
@@ -18,6 +19,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import type { Metadata } from "next";
+
 
 const font = FontSans({
   subsets: ["latin"],
